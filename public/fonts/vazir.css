@@ -1,0 +1,43 @@
+@font-face{
+    font-family: "vazir";
+    
+    src: 
+         url(./Vazir-Bold.eot) ,
+         url(./Vazir-Bold.woff) ,
+         url(./Vazir-Bold.woff2) ,
+         url(./Vazir-Bold.ttf) ;
+     font-weight: bold;
+    }
+    
+    @font-face{
+        font-family: "vazir";
+        
+        src: 
+             url(./Vazir-Medium.eot) ,
+             url(./Vazir-Medium.woff) ,
+             url(./Vazir-Medium.woff2) ,
+             url(./Vazir-Medium.ttf) ;
+         font-weight: 500;
+        }
+    
+        @font-face{
+            font-family: "vazir";
+            
+            src: 
+                 url(./Vazir-Thin.eot) ,
+                 url(./Vazir-Thin.woff) ,
+                 url(./Vazir-Thin.woff2) ,
+                 url(./Vazir-Thin.ttf) ;
+             font-weight:100;
+            }
+    
+            @font-face{
+                font-family: "vazir";
+                
+                src: 
+                     url(./Vazir.eot) ,
+                     url(./Vazir.woff) ,
+                     url(./Vazir.woff2) ,
+                     url(./Vazir.ttf) ;
+                 font-weight:normal;
+                }

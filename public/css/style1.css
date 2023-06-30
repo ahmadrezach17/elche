@@ -1,0 +1,259 @@
+html{
+    font-family: "vazir";
+    font-size: 100%;
+ }
+
+ body {
+    font-size: 14px;
+    font-family:"vazir";
+    padding: 0;
+    margin: 0;
+    background-color: #f5f5f5;
+    line-height: 1.7;
+    direction: rtl;
+    background: url(../photos/back.jpg);
+ }
+ .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+ }
+
+ ul{
+    padding: 0;
+    margin: 0;
+ }
+
+ .header{
+    color: rgb(245, 245, 245);
+    padding-top: 35px;
+    min-height: 60px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    border-bottom: 5px solid black;
+    
+ }
+
+ .logotext img{
+   width: 20%; 
+   height: 20%;
+   margin-right: 40%;
+ }
+
+
+ 
+
+.header a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.header ul li:hover {
+   
+    color: #ffffff;
+    background-color: #999999;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+ .header li{
+    display: inline;
+    padding: .5rem;
+    margin-top: 3rem;  
+ }
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.header .nav {
+    height: 5%;
+    width: 60% ;
+    margin: 10%;
+    padding: 10%;
+    
+    
+    
+}
+
+
+
+.about{
+    background-color: #000000ec;
+    width: calc(70% - 2rem);
+    margin-right: 15%;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.bgdshow{
+
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    background: url(../photos/clothing-seamless-texture-background-store-shop-package-black-white-62505760.jpg);
+    border-bottom: solid 3px #000000;
+
+}
+
+
+
+.bgdshow h2{
+    font-size: x-large;
+}
+
+
+.boxes{
+    margin-top: 15px;
+    
+}
+
+.boxes .box{
+    
+    width:calc(100% - 2rem);
+    padding: 1%;
+    margin: 1rem;
+    text-align: center;
+    display: inline-block;
+    
+    
+    
+}
+ 
+@media (min-width: 768px) {
+   .boxes .box{
+    width:calc(30% - 2rem);
+    margin: 1rem;
+   }
+
+}
+
+
+
+.boxes .box img{ 
+   width: 50%;
+   
+    border: solid 2px black;
+    
+}
+
+.boxes .box h3{
+    font-size: x-large;
+
+}
+
+.footer{
+
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    background-color: #999999;
+    border-top: 2px solid black;
+}
+
+.about-page{
+    background: linear-gradient(#999999 60% , rgb(66, 66, 66));
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5rem;
+    border-radius: 15px;
+    float: left;
+    color: #f5f5f5;
+    /* transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in; */
+    
+}
+
+@keyframes runcube {
+    from{
+        transform: rotateY(0) scale(1);
+    }
+    to{
+        transform: rotateY(220deg) scale(1.5);
+    }
+
+}
+
+
+.about-page:hover{
+    transform: perspective(1500px) rotateY(50deg) ;
+    /* animation: runcube 5s ease-in 1s infinite alternate ; */
+   
+}
+
+.about-more h2{
+
+    text-align: center;
+}
+
+.body-about{
+    
+    background: url(../photos/back.jpg);
+}
+
+.box a{
+
+    color: #000000;
+    text-decoration: none;
+    
+    
+
+}
+
+a::after{
+    text-decoration: none;
+}
+ 
+
+
+.t-container{
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+ 
+.tshirt{
+    
+    width: 40%;
+    background-color: #c9c9c9;
+    margin-top: 1rem;
+    text-align: center;
+    border-radius: 5%;
+
+   
+    
+}
+
+.tshirt img{
+    padding: 46px;
+    align-items: center;
+    border-radius: 16%;
+}
+
+@media (min-width: 1024px) {
+    .tshirts .tshirt{
+     width:calc(33% - 2rem);
+     margin: 1rem;
+    }
+ }
+
+/* @media screen and (min-width:768px) and (orientation: landscape) {
+    body {
+        background-color: aqua;
+    }
+
+} */
+
+
